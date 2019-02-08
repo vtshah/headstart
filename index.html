@@ -1,413 +1,742 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>HeadStart Academy</title>
-    <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700|Arimo:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Oxygen:400,700|Arimo:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/css/style.css" />
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-</head>
-<!-- Start of Async Drift Code -->
-<script>
-'use strict';
-/*eslint-disable */
-!function() {
-  var t = window.driftt = window.drift = window.driftt || [];
-  if (!t.init) {
-    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
-    t.factory = function(e) {
-      return function() {
-        var n = Array.prototype.slice.call(arguments);
-        return n.unshift(e), t.push(n), t;
-      };
-    }, t.methods.forEach(function(e) {
-      t[e] = t.factory(e);
-    }), t.load = function(t) {
-      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-      var i = document.getElementsByTagName("script")[0];
-      i.parentNode.insertBefore(o, i);
-    };
-  }
-}();
-drift.SNIPPET_VERSION = '0.3.1';
-drift.load('hauu5susnxpt');
-/*eslint-disable */
-</script>
-<!-- End of Async Drift Code -->
-<body class="is-boxed has-animations">
+  </head>
+  <!-- Start of Async Drift Code -->
+  <script>
+    "use strict";
+    /*eslint-disable */
+    !(function() {
+      var t = (window.driftt = window.drift = window.driftt || []);
+      if (!t.init) {
+        if (t.invoked)
+          return void (
+            window.console &&
+            console.error &&
+            console.error("Drift snippet included twice.")
+          );
+        (t.invoked = !0),
+          (t.methods = [
+            "identify",
+            "config",
+            "track",
+            "reset",
+            "debug",
+            "show",
+            "ping",
+            "page",
+            "hide",
+            "off",
+            "on"
+          ]),
+          (t.factory = function(e) {
+            return function() {
+              var n = Array.prototype.slice.call(arguments);
+              return n.unshift(e), t.push(n), t;
+            };
+          }),
+          t.methods.forEach(function(e) {
+            t[e] = t.factory(e);
+          }),
+          (t.load = function(t) {
+            var e = 3e5,
+              n = Math.ceil(new Date() / e) * e,
+              o = document.createElement("script");
+            (o.type = "text/javascript"),
+              (o.async = !0),
+              (o.crossorigin = "anonymous"),
+              (o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js");
+            var i = document.getElementsByTagName("script")[0];
+            i.parentNode.insertBefore(o, i);
+          });
+      }
+    })();
+    drift.SNIPPET_VERSION = "0.3.1";
+    drift.load("hauu5susnxpt");
+    /*eslint-disable */
+  </script>
+  <!-- End of Async Drift Code -->
+  <body class="is-boxed has-animations">
     <div class="body-wrap boxed-container">
-        <header class="site-header">
-            <div class="container">
-                <div class="site-header-inner">
-                    <div class="brand header-brand">
-                        <h1 class="m-0">
-                            <a href="#">
-                                <img src="dist/images/logo.svg" alt="Blue logo">
-                            </a>
-                        </h1>
-                    </div>
-                </div>
+      <header class="site-header">
+        <div class="container">
+          <div class="site-header-inner">
+            <div class="brand header-brand">
+              <h1 class="m-0">
+                <a href="#">
+                  <img src="dist/images/logo.svg" alt="Blue logo" />
+                </a>
+              </h1>
             </div>
-        </header>
+          </div>
+        </div>
+      </header>
 
-        <main>
-            <section class="hero">
-				<div class="hero-left-decoration is-revealing"></div>
-				<div class="hero-right-decoration is-revealing"></div>
-                <div class="container">
-                    <div class="hero-inner">
-						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0 is-revealing">Develop real world coding experience at Headstart</h1>
-	                        <p class="hero-paragraph is-revealing">Headstart is a new CS school that aims to teach students who already have basic programming experience practical and useful real world skills.</p>
-	                        <!-- <p class="hero-cta mb-0 is-revealing">
-								<a class="button button-primary button-shadow" href="#">Get started free</a>
-							</p> -->
-						</div>
-						<div class="hero-illustration">
-						</div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="clients section">
-                <div class="container">
-                    <div class="clients-inner section-inner has-top-divider">
-                        <div class="container-sm">
-                        	<div class="clients-header">Our instructors worked at:</div>
-                            <ul class="list-reset mb-0">
-                                <li class="is-revealing">
-                                    <img src="dist/images/facebook-logo.svg" alt="Facebook logo">
-                                </li>
-                                <li class="is-revealing">
-                                    <img src="dist/images/amazon-logo.svg" alt="Amazon logo">
-                                </li>
-                                <!-- <li class="is-revealing">
-                                    <img src="dist/images/scale-logo.png" alt="Scale logo">
-                                </li> -->
-								<li class="is-revealing">
-									<img src="dist/images/stripe-logo.png" alt="Stripe logo">
-								</li>
-								<li class="is-revealing">
-                                    <img src="dist/images/samsara-logo.svg" alt="Samsara logo">
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-			<section class="features section text-center">
-                <div class="container">
-                    <div class="features-inner section-inner has-top-divider">
-						<div class="features-header text-center">
-							<div class="container-sm">
-								<h2 class="section-title mt-0">Meet Headstart</h2>
-								<p class="section-paragraph mb-0">Headstart Academy provides 6 week courses for students between the ages of 14-18 who want to be ahead in computer science. We are based in <b>Northern Virginia</b>.</p>
-							</div>
-						</div>
-                        <div class="features-wrap">
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <img src="dist/images/feature-icon-01.svg" alt="Feature 01">
-                                    </div>
-                                    <h4 class="feature-title">Structured Teaching</h4>
-                                    <p class="text-sm">Our courses are designed to keep you on track and progress quickly.</p>
-                                </div>
-                            </div>
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <img src="dist/images/feature-icon-02.svg" alt="Feature 02">
-                                    </div>
-                                    <h4 class="feature-title">Learn by Doing</h4>
-                                    <p class="text-sm">Learn and master material hands-on to feel comfortable and confident.</p>
-                                </div>
-                            </div>
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <img src="dist/images/feature-icon-03.svg" alt="Feature 03">
-                                    </div>
-                                    <h4 class="feature-title">New Skill Every Week</h4>
-                                    <p class="text-sm">Our courses are fast-based but fulfilling. Master and expand your skillets in weeks.</p>
-                                </div>
-                            </div>
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <img src="dist/images/feature-icon-04.svg" alt="Feature 04">
-                                    </div>
-                                    <h4 class="feature-title">Mentorship</h4>
-                                    <p class="text-sm">Our community of instructors, advisors, and graduates are here for you after graduation to help land internships, apply for college, and answer your questions.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-			<section class="features-tabs section">
-                <div class="container">
-                    <div class="features-tabs-inner section-inner has-top-divider">
-						<div class="tabs-container">
-							<ul class="tabs-links">
-								<li class="is-revealing">
-									<a href="#tab-1" class="tab-link is-active">
-										<img src="dist/images/tabs-icon-01.svg" alt="Tabs icon 01">
-										<span class="h4 m-0">Amazing features</span>
-									</a>
-								</li>
-								<li class="is-revealing">
-									<a href="#tab-2" class="tab-link">
-										<img src="dist/images/tabs-icon-02.svg" alt="Tabs icon 02">
-										<span class="h4 m-0">Endless possibilities</span>
-									</a>
-								</li>
-								<li class="is-revealing">
-									<a href="#tab-3" class="tab-link">
-										<img src="dist/images/tabs-icon-03.svg" alt="Tabs icon 03">
-										<span class="h4 m-0">Ease of use</span>
-									</a>
-								</li>
-							</ul>
-							<div class="tabs-content">
-								<div id="tab-1" class="tab-panel is-active">
-									<h2>Discover</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-									<p class="mb-0">A arcu cursus vitae congue. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique.</p>
-								</div>
-								<div id="tab-2" class="tab-panel">
-									<h2>Power of customisation</h2>
-									<p>A arcu cursus vitae congue. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique.</p>
-									<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A arcu cursus vitae congue.</p>
-								</div>
-								<div id="tab-3" class="tab-panel">
-									<h2>Keep it simple</h2>
-									<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-									<p class="mb-0">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt.</p>
-								</div>
-							</div>
-						</div>
-                    </div>
-                </div>
-            </section>
-
-			<section class="testimonials section">
-				<div class="container">
-					<div class="testimonials-inner section-inner">
-						<div class="testimonials-header text-center text-light">
-							<h2 class="section-title mt-0">Instructors</h2>
-						</div>
-						<div class="testimonials-wrap">
-							<div class="testimonial text-sm is-revealing">
-								<div class="testimonial-inner">
-									<div class="testimonial-main">
-										<div class="testimonial-body">
-											<h1>Vineet Shah</h1>
-											<p>I have a passion for teaching and want to mentor students to give them a "head start" in their CS journeys. I am studying CS at UMD and have worked at Amazon. I will be joining Samsara in the summer.</p>
-										</div>
-									</div>
-									<div class="testimonial-footer">
-										<div class="testimonial-name"><a href="https://linkedin.com/in/shahvineet98">Linkedin</a></div>
-									</div>
-								</div>
-							</div>
-							<div class="testimonial text-sm is-revealing">
-								<div class="testimonial-inner">
-									<div class="testimonial-main">
-										<div class="testimonial-body">
-											<h1>Sashank Thupukari</h1>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien. Quisque egestas diam in arcu cursus euismod quis.</p>
-										</div>
-									</div>
-									<div class="testimonial-footer">
-										<div class="testimonial-name"><a href="https://linkeidn.com/in/sthupukari">Linkedin</a></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-            <section class="pricing section">
-                <div class="container">
-                    <div class="pricing-inner section-inner">
-                        <h2 class="section-title mt-0 text-center">Courses</h2>
-						<div>
-							<div class="pricing-tables-wrap">
-								<div class="pricing-table is-revealing">
-									<div class="pricing-table-inner">
-										<div class="pricing-table-main">
-											<div class="pricing-table-header mb-24 pb-24">
-												<div class="pricing-table-title h4 mt-0 mb-16">Introduction to Python</div>
-												<div class="pricing-table-price"><span class="pricing-table-price-currency">$</span><span class="pricing-table-price-amount h1">600</span></div>
-											</div>
-											<ul class="pricing-table-features list-reset text-xs">
-												<li>
-													<span>6 Week Course</span>
-												</li>
-												<li>
-													<span>No experience required</span>
-												</li>
-												<li>
-													<span>Learn CS fundamentals</span>
-												</li>
-												<li>
-													<span>Homework Assignments</span>
-												</li>
-											</ul>
-										</div>
-										<div class="pricing-table-cta">
-											<a class="button button-secondary button-shadow button-block" href="/intro-to-python.html">Learn More</a>
-										</div>
-									</div>
-								</div>
-								<div class="pricing-table is-revealing">
-									<div class="pricing-table-inner">
-										<div class="pricing-table-main">
-											<div class="pricing-table-header mb-24 pb-24">
-												<div class="pricing-table-title h4 mt-0 mb-16">Full Stack Web Development</div>
-												<div class="pricing-table-price"><span class="pricing-table-price-currency">$</span><span class="pricing-table-price-amount h1">600</span></div>
-											</div>
-											<ul class="pricing-table-features list-reset text-xs">
-												<li>
-													<span>6 Week Course</span>
-												</li>
-												<li>
-													<span>Some experience required</span>
-												</li>
-												<li>
-													<span>Javascript/HTML/CSS/Python</span>
-												</li>
-												<li>
-													<span>Homework Assignments</span>
-												</li>
-											</ul>
-										</div>
-										<div class="pricing-table-cta">
-											<a class="button button-primary button-shadow button-block" href="/full-stack.html">Learn More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="pricing-faqs container-sm is-revealing">
-							<h4 class="mt-40 mb-32">FAQs</h4>
-	                        <ul class="accordion">
-	                            <li>
-	                                <div class="accordion-title">
-										<span>In a professional context it often happens that private?</span>
-										<div class="accordion-icon"></div>
-									</div>
-	                                <div class="accordion-body">
-	                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-	                                </div>
-	                            </li>
-								<li>
-									<div class="accordion-title">
-										<span>Lorem ipsum dolor sit amet, consectetur</span>
-										<div class="accordion-icon"></div>
-									</div>
-									<div class="accordion-body">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Ut enim ad minim veniam semper. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-									</div>
-								</li>
-								<li>
-									<div class="accordion-title">
-										<span>In a professional context it often happens that private?</span>
-										<div class="accordion-icon"></div>
-									</div>
-									<div class="accordion-body">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-									</div>
-								</li>
-								<li>
-									<div class="accordion-title">
-										<span>Lorem ipsum dolor sit amet, consectetur</span>
-										<div class="accordion-icon"></div>
-									</div>
-									<div class="accordion-body">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Ut enim ad minim veniam semper. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-									</div>
-								</li>
-	                        </ul>
-						</div>
-                    </div>
-                </div>
-            </section>
-
-			<section class="cta section">
-				<div class="container">
-					<div class="cta-inner section-inner is-revealing">
-						<h3 class="section-title mt-0">Still not convinced?</h3>
-						<div class="cta-cta">
-							<a class="button button-primary button-shadow" href="#">Schedule a live demo</a>
-						</div>
-					</div>
-				</div>
-			</section>
-        </main>
-
-        <footer class="site-footer">
-            <div class="container">
-                <div class="site-footer-inner">
-                    <div class="brand footer-brand">
-                        <a href="#">
-                            <img src="dist/images/logo.svg" alt="Blue logo">
-                        </a>
-                    </div>
-                    <ul class="footer-links list-reset">
-                        <li>
-                            <a href="#">Contact</a>
-                        </li>
-                        <li>
-                            <a href="#">About us</a>
-                        </li>
-                        <li>
-                            <a href="#">FAQ's</a>
-                        </li>
-                        <li>
-                            <a href="#">Support</a>
-                        </li>
-                    </ul>
-                    <ul class="footer-social-links list-reset">
-                        <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Facebook</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#FFF"/>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Twitter</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#FFF"/>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span class="screen-reader-text">Google</span>
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" fill="#FFF"/>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="footer-copyright">&copy; 2018 Blue, all rights reserved</div>
-                </div>
+      <main>
+        <section class="hero">
+          <div class="hero-left-decoration is-revealing"></div>
+          <div class="hero-right-decoration is-revealing"></div>
+          <div class="container">
+            <div class="hero-inner">
+              <div class="hero-copy">
+                <h1 class="hero-title mt-0 is-revealing">
+                  Develop real world coding experience at Headstart
+                </h1>
+                <p class="hero-paragraph is-revealing">
+                  Headstart is a new CS school that aims to teach students who
+                  already have basic programming experience practical and useful
+                  real world skills.
+                </p>
+                <!--
+                  <p class="hero-cta mb-0 is-revealing">
+                  	<a class="button button-primary button-shadow" href="#">Get started free</a>
+                  </p>
+                -->
+              </div>
+              <div class="hero-illustration"></div>
             </div>
-        </footer>
+          </div>
+        </section>
+
+        <section class="clients section">
+          <div class="container">
+            <div class="clients-inner section-inner has-top-divider">
+              <div class="container-sm">
+                <div class="clients-header">
+                  Our instructors have worked at:
+                </div>
+                <ul class="list-reset mb-0">
+                  <li class="is-revealing">
+                    <img
+                      src="dist/images/facebook-logo.svg"
+                      alt="Facebook logo"
+                      style="margin-top: -2px;"
+                    />
+                  </li>
+                  <li class="is-revealing">
+                    <img
+                      src="dist/images/amazon-logo.svg"
+                      alt="Amazon logo"
+                      style="margin-top: 13px;"
+                    />
+                  </li>
+
+                  <li class="is-revealing">
+                    <img src="dist/images/stripe-logo.svg" alt="Stripe logo" />
+                  </li>
+                  <li class="is-revealing">
+                    <img
+                      src="dist/images/samsara-logo.svg"
+                      alt="Samsara logo"
+                    />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="features section text-center">
+          <div class="container">
+            <div class="features-inner section-inner has-top-divider">
+              <div class="features-header text-center">
+                <div class="container-sm">
+                  <h2 class="section-title mt-0">Meet Headstart</h2>
+                  <p class="section-paragraph mb-0">
+                    Headstart Academy provides 6 week courses for students
+                    between the ages of 14 - 18 who want to be ahead in computer
+                    science. We are based in <b>Northern Virginia</b>.
+                  </p>
+                </div>
+              </div>
+              <div class="features-wrap">
+                <div class="feature is-revealing">
+                  <div class="feature-inner">
+                    <div class="feature-icon">
+                      <img
+                        src="dist/images/feature-icon-01.svg"
+                        alt="Feature 01"
+                      />
+                    </div>
+                    <h4 class="feature-title">Structured Teaching</h4>
+                    <p class="text-sm">
+                      Our courses are designed to keep you on track and progress
+                      quickly, but not be overwhelming.
+                    </p>
+                  </div>
+                </div>
+                <div class="feature is-revealing">
+                  <div class="feature-inner">
+                    <div class="feature-icon">
+                      <img
+                        src="dist/images/feature-icon-02.svg"
+                        alt="Feature 02"
+                      />
+                    </div>
+                    <h4 class="feature-title">Learn by Doing</h4>
+                    <p class="text-sm">
+                      Learn material through hands-on projects to feel
+                      comfortable and confident.
+                    </p>
+                  </div>
+                </div>
+                <div class="feature is-revealing">
+                  <div class="feature-inner">
+                    <div class="feature-icon">
+                      <img
+                        src="dist/images/feature-icon-03.svg"
+                        alt="Feature 03"
+                      />
+                    </div>
+                    <h4 class="feature-title">New Skill Every Week</h4>
+                    <p class="text-sm">
+                      Our courses are fast-based but fulfilling. Master and
+                      expand your skillets in weeks.
+                    </p>
+                  </div>
+                </div>
+                <div class="feature is-revealing">
+                  <div class="feature-inner">
+                    <div class="feature-icon">
+                      <img
+                        src="dist/images/feature-icon-04.svg"
+                        alt="Feature 04"
+                      />
+                    </div>
+                    <h4 class="feature-title">Mentorship</h4>
+                    <p class="text-sm">
+                      Our instructors are here for your continued success, from
+                      internships to applying to college.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="features-tabs section">
+          <div class="container">
+            <div class="features-tabs-inner section-inner has-top-divider">
+              <div class="tabs-container">
+                <ul class="tabs-links">
+                  <li class="is-revealing">
+                    <a href="#tab-1" class="tab-link is-active">
+                      <img
+                        src="dist/images/tabs-icon-01.svg"
+                        alt="Tabs icon 01"
+                      />
+                      <span class="h4 m-0">Amazing features</span>
+                    </a>
+                  </li>
+                  <li class="is-revealing">
+                    <a href="#tab-2" class="tab-link">
+                      <img
+                        src="dist/images/tabs-icon-02.svg"
+                        alt="Tabs icon 02"
+                      />
+                      <span class="h4 m-0">Endless possibilities</span>
+                    </a>
+                  </li>
+                  <li class="is-revealing">
+                    <a href="#tab-3" class="tab-link">
+                      <img
+                        src="dist/images/tabs-icon-03.svg"
+                        alt="Tabs icon 03"
+                      />
+                      <span class="h4 m-0">Ease of use</span>
+                    </a>
+                  </li>
+                </ul>
+                <div class="tabs-content">
+                  <div id="tab-1" class="tab-panel is-active">
+                    <h2>Discover</h2>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
+                    </p>
+                    <p class="mb-0">
+                      A arcu cursus vitae congue. Vel elit scelerisque mauris
+                      pellentesque pulvinar pellentesque habitant morbi
+                      tristique.
+                    </p>
+                  </div>
+                  <div id="tab-2" class="tab-panel">
+                    <h2>Power of customisation</h2>
+                    <p>
+                      A arcu cursus vitae congue. Vel elit scelerisque mauris
+                      pellentesque pulvinar pellentesque habitant morbi
+                      tristique.
+                    </p>
+                    <p class="mb-0">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. A arcu cursus vitae congue.
+                    </p>
+                  </div>
+                  <div id="tab-3" class="tab-panel">
+                    <h2>Keep it simple</h2>
+                    <p>
+                      Sed ut perspiciatis, unde omnis iste natus error sit
+                      voluptatem accusantium doloremque laudantium.
+                    </p>
+                    <p class="mb-0">
+                      Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur
+                      aut odit aut fugit, sed quia consequuntur magni dolores
+                      eos, qui ratione voluptatem sequi nesciunt.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="testimonials section">
+          <div class="container">
+            <div class="testimonials-inner section-inner">
+              <div class="testimonials-header text-center text-light">
+                <h2 class="section-title mt-0">Instructors</h2>
+              </div>
+              <div class="testimonials-wrap">
+                <div class="testimonial instructor text-sm is-revealing">
+                  <div class="testimonial-inner">
+                    <div class="testimonial-main">
+                      <div class="testimonial-body sashank">
+                        <h1>Sashank Thupukari</h1>
+                        <p>
+                          Sashank has a passion for Computer Science education,
+                          and has helped hundreds of students, from middle
+                          schoolers to college graduates, learn how to code.
+                        </p>
+
+                        <p>
+                          He was a previous instructor at
+                          <a href="https://github.com/Codeducate">Codeducate</a
+                          >, where he taught 80+ middle-schoolers their first
+                          programming course.
+                        </p>
+
+                        <p>
+                          He founded
+                          <a href="htts://stics.umd.edu">STICs</a> (Student
+                          Initiated Courses) at the University of Maryland, and
+                          has taught accreddited college-level courses on
+                          building robust full-stack applications.
+                        </p>
+
+                        <p>
+                          He has worked on hard technical problems at leading
+                          leading technology companies. He previously worked on
+                          Ads Infrastructure at
+                          <a href="https://facebook.com/careers">Facebook</a>,
+                          Machine Learning Data Labelling at
+                          <a href="https://scale.ai">Scale</a>, and will soon be
+                          joining <a href="https://stripe.com">Stripe</a> to
+                          work on Online Payments.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="testimonial-footer">
+                      <div class="testimonial-name">
+                        <a href="https://linkedin.com/in/shahvineet98"
+                          >Linkedin</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial instructor text-sm is-revealing">
+                  <div class="testimonial-inner">
+                    <div class="testimonial-main">
+                      <div class="testimonial-body vineet">
+                        <h1>Vineet Shah</h1>
+                        <p>
+                          Vineet has a history of mentorship and teaching and
+                          has guided students through learning how to code,
+                          career decisions, and numerous projects.
+                        </p>
+
+                        <p>Add some teaching stuff here.</p>
+
+                        <p>
+                          Vineet has worked on technology at a global scale. He
+                          previously worked on EC2 Security at
+                          <a href="https://aws.com">Amazon AWS</a>, Developer
+                          Tooling at <a href="https://finra.org">Finra</a>, and
+                          will soon be joining
+                          <a href="https://samsara.com">Samsara</a> to work on
+                          distributed IOT devices.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="testimonial-footer">
+                      <div class="testimonial-name">
+                        <a href="https://linkeidn.com/in/sthupukari"
+                          >Linkedin</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <br />
+
+        <section class="testimonials section">
+          <div class="container">
+            <div class="testimonials-inner section-inner">
+              <div class="testimonials-header text-center text-light">
+                <h2 class="section-title mt-0">Advisors</h2>
+              </div>
+              <div class="testimonials-wrap">
+                <div class="testimonial text-sm is-revealing">
+                  <div class="testimonial-inner">
+                    <div class="testimonial-main">
+                      <div class="testimonial-body">
+                        <h1>Chris Smoak</h1>
+                        <p>
+                          Venture Capitalist. Co-founder & CTO Atrium. Y
+                          Combinator W06 & W16. Worked at Amazon, Nvidia,
+                          Microsoft. Studied at Carnegie Mellon University.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="testimonial-footer">
+                      <div class="testimonial-name">
+                        <a href="https://www.linkedin.com/in/chrissmoak/"
+                          >Linkedin</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial text-sm is-revealing">
+                  <div class="testimonial-inner">
+                    <div class="testimonial-main">
+                      <div class="testimonial-body">
+                        <h1>Tejas Manohar</h1>
+                        <p>
+                          Distributed Systems and Data Infrastructure Engineer
+                          at Segment. Worked at Lottery.com, Hupspot, and
+                          Populr. Visiting Scholar at UC Berkeley.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="testimonial-footer">
+                      <div class="testimonial-name">
+                        <a href="https://www.linkedin.com/in/tejasmanohar/"
+                          >Linkedin</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonial text-sm is-revealing">
+                  <div class="testimonial-inner">
+                    <div class="testimonial-main">
+                      <div class="testimonial-body">
+                        <h1>Someone else</h1>
+                        <p>Here is their description</p>
+                      </div>
+                    </div>
+                    <div class="testimonial-footer">
+                      <div class="testimonial-name">
+                        <a href="https://linkeidn.com/in/sthupukari"
+                          >Linkedin</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="pricing section">
+          <div class="container">
+            <div class="pricing-inner section-inner">
+              <h2 class="section-title mt-0 text-center">Courses</h2>
+              <div>
+                <div class="pricing-tables-wrap">
+                  <div class="pricing-table is-revealing">
+                    <div class="pricing-table-inner">
+                      <div class="pricing-table-main">
+                        <div class="pricing-table-header mb-24 pb-24">
+                          <div class="pricing-table-title h4 mt-0 mb-16">
+                            Introduction to Python
+                          </div>
+                          <div class="pricing-table-price">
+                            <span class="pricing-table-price-currency">$</span
+                            ><span class="pricing-table-price-amount h1"
+                              >600</span
+                            >
+                            <div class="pricing-table-price-need">
+                              Need based scholarhips available.
+                            </div>
+                          </div>
+                        </div>
+                        <ul class="pricing-table-features list-reset text-xs">
+                          <li><span>6 Week Course</span></li>
+                          <li><span>No experience required</span></li>
+                          <li><span>Learn CS fundamentals</span></li>
+                          <li><span>Master core Python concepts</span></li>
+                          <li>
+                            <span>NEED MORE TO MAKE THIS THE SAME LENGTH</span>
+                          </li>
+                          <li><span>Homework Assignments</span></li>
+                        </ul>
+                      </div>
+                      <div class="pricing-table-cta">
+                        <a
+                          class="button button-secondary button-shadow button-block"
+                          href="/intro-to-python.html"
+                          >Learn More</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pricing-table is-revealing">
+                    <div class="pricing-table-inner">
+                      <div class="pricing-table-main">
+                        <div class="pricing-table-header mb-24 pb-24">
+                          <div class="pricing-table-title h4 mt-0 mb-16">
+                            Full Stack Development
+                          </div>
+                          <div class="pricing-table-price">
+                            <span class="pricing-table-price-currency">$</span
+                            ><span class="pricing-table-price-amount h1"
+                              >600
+                            </span>
+                            <div class="pricing-table-price-need">
+                              Need based scholarhips available.
+                            </div>
+                          </div>
+                        </div>
+                        <ul class="pricing-table-features list-reset text-xs">
+                          <li><span>6 Week Course</span></li>
+                          <li>
+                            <span>Web Development (HTML/CSS/Javascript)</span>
+                          </li>
+                          <li><span>Advanced CS Fundementals</span></li>
+                          <li><span>Python</span></li>
+                          <li><span>Software Architecture</span></li>
+                          <li><span>Backend Development</span></li>
+                          <li><span>Practical Final Project</span></li>
+                        </ul>
+
+                        <div class="notice">
+                          Previous programming experience is required
+                        </div>
+                      </div>
+                      <div class="pricing-table-cta">
+                        <a
+                          class="button button-primary button-shadow button-block"
+                          href="/full-stack.html"
+                          >Learn More</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pricing-faqs container-sm is-revealing">
+                <h4 class="mt-40 mb-32">FAQs</h4>
+                <ul class="accordion">
+                  <li>
+                    <div class="accordion-title">
+                      <span
+                        >How is HeadStart different from other programming
+                        classes?</span
+                      >
+                      <div class="accordion-icon"></div>
+                    </div>
+                    <div class="accordion-body">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="accordion-title">
+                      <span>What are HeadStart's main goals and values?</span>
+                      <div class="accordion-icon"></div>
+                    </div>
+                    <div class="accordion-body">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam. Ut enim ad
+                        minim veniam semper. Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="accordion-title">
+                      <span>How do I know which class to enroll in?</span>
+                      <div class="accordion-icon"></div>
+                    </div>
+                    <div class="accordion-body">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="accordion-title">
+                      <span
+                        >How will HeadStart help me after graduating from the
+                        course?</span
+                      >
+                      <div class="accordion-icon"></div>
+                    </div>
+                    <div class="accordion-body">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam. Ut enim ad
+                        minim veniam semper. Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="cta section">
+          <div class="container">
+            <div class="cta-inner section-inner is-revealing">
+              <h3 class="section-title mt-0">If you'd like to chat:</h3>
+              <div class="cta-cta">
+                <button
+                  class="button button-primary button-shadow"
+                  id="schedule-meeting-button"
+                  href="#"
+                >
+                  Schedule a phone call
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container">
+          <div class="site-footer-inner">
+            <div class="brand footer-brand">
+              <a href="#">
+                <img src="dist/images/logo.svg" alt="Blue logo" />
+              </a>
+            </div>
+            <ul class="footer-links list-reset">
+              <li><a id="chat" class="drift-open-chat">Contact</a></li>
+              <!-- <li><a href="#">About us</a></li> -->
+              <!-- <li><a href="#">FAQ's</a></li> -->
+              <!-- <li><a href="#">Support</a></li> -->
+            </ul>
+            <ul class="footer-social-links list-reset">
+              <li>
+                <a href="#">
+                  <span class="screen-reader-text">Facebook</span>
+                  <svg
+                    width="16"
+                    height="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z"
+                      fill="#FFF"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="screen-reader-text">Twitter</span>
+                  <svg
+                    width="16"
+                    height="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z"
+                      fill="#FFF"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="screen-reader-text">Google</span>
+                  <svg
+                    width="16"
+                    height="16"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z"
+                      fill="#FFF"
+                    />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <div class="footer-copyright">
+              &copy; 2019 HeadStart, all rights reserved
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <script src="dist/js/main.min.js"></script>
-</body>
+    <script>
+      (function() {
+        var $button = document.getElementById("schedule-meeting-button");
+        $button.addEventListener("click", function() {
+          drift.on("ready", function(api) {
+            api.scheduleMeeting("1324788");
+          });
+        });
+      })();
+    </script>
+    <script>
+      (function() {
+        var $button = document.getElementById("chat");
+        $button.addEventListener("click", function() {
+          drift.on("ready", function(api) {
+            console.log("clicked");
+            // debugger;
+            api.openChat();
+          });
+        });
+      })();
+    </script>
+  </body>
 </html>
