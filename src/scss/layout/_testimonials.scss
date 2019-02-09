@@ -105,6 +105,14 @@
     // background-size: cover;
   }
 
+  &.course {
+    &::before {
+      display: block;
+      width: 0px;
+      height: 0px;
+    }
+  }
+
   &.sashank {
     &::before {
       width: 75px;
