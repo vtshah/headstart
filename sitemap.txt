@@ -1,0 +1,8 @@
+https://www.headstartlabs.org/index.html
+https://www.headstartlabs.org/intro-to-python.html
+https://www.headstartlabs.org/full-stack.html
+https://www.headstartlabs.org/thank-you.html
+http://www.headstartlabs.org/index.html
+http://www.headstartlabs.org/intro-to-python.html
+http://www.headstartlabs.org/full-stack.html
+http://www.headstartlabs.org/thank-you.html
